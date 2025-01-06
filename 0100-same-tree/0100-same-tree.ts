@@ -13,31 +13,9 @@
  */
 
 function isSameTree(p: TreeNode | null, q: TreeNode | null): boolean {
-  let tree1 : number[] = []
-  let tree2 : number[] = []
-  helper(p,tree1)
-  helper(q,tree2)
-  return arraysAreEqual(tree1,tree2)
-};
+  if (p == null && q==null) return true
+  if (p==null || q == null) return false
+  if (p.val != q.val) return false
+  return isSameTree(p.left,q.left)&&isSameTree(p.right,q.right)
+};  
 
-function helper(node: TreeNode|null,ans:number[]){
-if (node === null){
-     ans.push(Infinity); 
-    return
-} 
- ans.push(node.val)
- helper(node.left,ans)
- 
- helper(node.right,ans)
-}
-
-
-function arraysAreEqual(arr1: number[], arr2: number[]): boolean {
-  if (arr1.length !== arr2.length) return false;
-  
-  for (let i = 0; i < arr1.length; i++) {
-    if (arr1[i] !== arr2[i]) return false;
-  }
-  
-  return true;
-}
