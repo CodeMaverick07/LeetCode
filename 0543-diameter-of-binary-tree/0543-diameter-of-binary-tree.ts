@@ -28,22 +28,16 @@
 // };
 
 function diameterOfBinaryTree(root: TreeNode | null): number {
-  let diameter = 0;
+  let diameter = { value: 0 }
+  helper(root,diameter)
+  return diameter.value;
+}
+function helper(root:TreeNode, diameter:any ) {
+    if (root == null ) return 0
+    let right = helper(root.right,diameter)
+    let left = helper(root.left, diameter)
 
-  function dfs(node: TreeNode | null): number {
-    if (node === null) return 0;
+    diameter.value = Math.max(diameter.value,right+left)
+    return 1 + Math.max(left,right)
 
-    // Get the height of left and right subtrees
-    const leftHeight = dfs(node.left);
-    const rightHeight = dfs(node.right);
-
-    // Update the diameter if the path through the current node is larger
-    diameter = Math.max(diameter, leftHeight + rightHeight);
-
-    // Return the height of the current node
-    return 1 + Math.max(leftHeight, rightHeight);
-  }
-
-  dfs(root);
-  return diameter;
 }
