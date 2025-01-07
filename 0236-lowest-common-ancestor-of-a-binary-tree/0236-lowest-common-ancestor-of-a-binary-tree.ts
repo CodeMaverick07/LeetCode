@@ -12,22 +12,33 @@
  * }
  */
 
-function lowestCommonAncestor(root: TreeNode | null, p: TreeNode | null, q: TreeNode | null): TreeNode | null {
-   if (root == p || root == q) return root 
-   if (p==q) return p
+// function lowestCommonAncestor(root: TreeNode | null, p: TreeNode | null, q: TreeNode | null): TreeNode | null {
+//    if (root == p || root == q) return root 
+//    if (p==q) return p
 
-let left = contains(root.left,p)
-let right = contains(root.right,q)
-if((left&&right )|| (!left&&!right)) return root
-if (left && !right) return lowestCommonAncestor(root.left,p,q)
-if (!left&&right) return lowestCommonAncestor(root.right,p,q)
-return null
+// let left = contains(root.left,p)
+// let right = contains(root.right,q)
+// if((left&&right )|| (!left&&!right)) return root
+// if (left && !right) return lowestCommonAncestor(root.left,p,q)
+// if (!left&&right) return lowestCommonAncestor(root.right,p,q)
+// return null
 	
-};
+// };
 
-function contains(root,node){
-    if (root == node) return true
-    if (root == null ) return false
-    return contains(root.left,node)|| contains(root.right,node)
+// function contains(root,node){
+//     if (root == node) return true
+//     if (root == null ) return false
+//     return contains(root.left,node)|| contains(root.right,node)
 
+// }
+
+
+// 
+function lowestCommonAncestor(root: TreeNode | null, p: TreeNode, q: TreeNode): TreeNode | null {
+
+  if (!root || root === p || root === q) return root;
+  const left = lowestCommonAncestor(root.left, p, q);
+  const right = lowestCommonAncestor(root.right, p, q);
+  if (left && right) return root;
+  return left ?? right;
 }
