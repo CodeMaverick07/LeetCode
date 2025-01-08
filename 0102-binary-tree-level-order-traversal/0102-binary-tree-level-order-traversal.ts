@@ -26,26 +26,18 @@
 //     return 1+Math.max(height(root.left),height(root.right))
 // }
 
-function levelOrder(root: TreeNode | null): number[][] {
-    if (root == null) return []
-    
-    let ans: number[][] = []
-    let queue: TreeNode[] = [root]  // Start with the root in the queue
-    
-    while (queue.length > 0) {
-        let levelSize = queue.length  // Number of nodes at the current level
-        let currentLevel: number[] = []
-        
-        // Process all nodes at the current level
-        for (let i = 0; i < levelSize; i++) {
-            let node = queue.shift()!
-            currentLevel.push(node.val)
-            if (node.left) queue.push(node.left)
-            if (node.right) queue.push(node.right)
-        }
-        
-        ans.push(currentLevel)  // Add the current level to the result
+function helper(node: TreeNode | null, res: number[][], h:number){
+    if(!node)   return;
+    if(res[h] === undefined){
+        res[h] = new Array<number>();
     }
-    
-    return ans
+    helper(node.left, res, h+1);
+    res[h].push(node.val);
+    helper(node.right, res, h+1);
 }
+
+function levelOrder(root: TreeNode | null): number[][] {
+    const res: number[][] = [];
+    helper(root, res, 0);
+    return res;
+};
