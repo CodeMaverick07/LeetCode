@@ -13,9 +13,7 @@
  */
 
 function rightSideView(root: TreeNode | null): number[] {
-   
     let ans : number [] = []
-    if(root == null ) return ans
     solve(root,ans,1)
     return ans
 };
@@ -23,9 +21,8 @@ function rightSideView(root: TreeNode | null): number[] {
 
 
 function solve(root:TreeNode,ans:number[],n:number){
-    if (root == null) return 
+    if (root == null) return
     ans[n-1] = root.val
     solve(root.left,ans,n+1)
     solve(root.right,ans,n+1)
-
 } 
