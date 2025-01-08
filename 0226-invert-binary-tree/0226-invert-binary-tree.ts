@@ -13,17 +13,15 @@
  */
 
 function invertTree(root: TreeNode | null): TreeNode | null {
-    helper(root)
+   if (root == null) return root
+    if (root.left==null && root.right == null) return root
+    swap(root)
+    invertTree(root.right)
+    invertTree(root.left)
     return root
 };
 
-function helper(root:TreeNode) {
-    if (root == null) return
-    if (root.left==null && root.right == null) return 
-    swap(root)
-    helper(root.right)
-    helper(root.left)
-}
+
 
 function swap (root:TreeNode | null) {
 if (root == null )return 
