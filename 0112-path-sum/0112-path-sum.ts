@@ -12,13 +12,28 @@
  * }
  */
 
-function hasPathSum(root: TreeNode | null, targetSum: number): boolean {
-   if (root == null ) return false
-   if (root!= null && root.left == null && root.right == null ) {
-    if (root.val == targetSum) return true
-   }
-   return hasPathSum(root.left,targetSum-root.val) || hasPathSum(root.right,targetSum- root.val)
+// function hasPathSum(root: TreeNode | null, targetSum: number): boolean {
+//    if (root == null ) return false
+//    if (root!= null && root.left == null && root.right == null ) {
+//     if (root.val == targetSum) return true
+//    }
+//    return hasPathSum(root.left,targetSum-root.val) || hasPathSum(root.right,targetSum- root.val)
     
+// };
+
+function hasNoLeaves(node: TreeNode) {
+    if (node.left == null && node.right == null){ return true}
+   else return false
+}
+
+function hasPathSum(root: TreeNode | null, targetSum: number): boolean {
+
+    if(root === null) return false;
+    if(targetSum - root.val === 0 && hasNoLeaves(root)) {
+        return true
+    };
+    
+    return hasPathSum(root.left, targetSum-root.val) || hasPathSum(root.right, targetSum-root.val)
 };
 
 
