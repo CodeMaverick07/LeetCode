@@ -22,8 +22,7 @@
 // };
 
 function hasNoLeaves(node: TreeNode) {
-    if (node.left == null && node.right == null){ return true}
-   else return false
+    return !(Boolean(node.left) || Boolean(node.right))
 }
 
 function hasPathSum(root: TreeNode | null, targetSum: number): boolean {
