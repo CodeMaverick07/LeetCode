@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/CodeMaverick07/LeetCode/tree/master/0037-sudoku-solver) |
 | [0113-path-sum-ii](https://github.com/CodeMaverick07/LeetCode/tree/master/0113-path-sum-ii) |
 | [0257-binary-tree-paths](https://github.com/CodeMaverick07/LeetCode/tree/master/0257-binary-tree-paths) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/CodeMaverick07/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Matrix
 |  |
 | ------- |
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/CodeMaverick07/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/CodeMaverick07/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Tree
 |  |
 | ------- |
@@ -104,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0257-binary-tree-paths](https://github.com/CodeMaverick07/LeetCode/tree/master/0257-binary-tree-paths) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/CodeMaverick07/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -126,4 +129,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0783-search-in-a-binary-search-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/0784-insert-into-a-binary-search-tree) |
+## Greedy
+|  |
+| ------- |
+| [2456-construct-smallest-number-from-di-string](https://github.com/CodeMaverick07/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 <!---LeetCode Topics End-->
