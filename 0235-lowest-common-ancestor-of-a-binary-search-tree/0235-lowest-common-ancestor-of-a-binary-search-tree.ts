@@ -19,8 +19,8 @@ function lowestCommonAncestor(root: TreeNode | null, p: TreeNode | null, q: Tree
    if (root == p || root == q) return root 
    if (p==q) return p
 
-let left = contains(root.left,p)
-let right = contains(root.right,q)
+let left =  p.val < root.val
+let right = q.val > root.val
 if((left&&right )|| (!left&&!right)) return root
 if (left && !right) return lowestCommonAncestor(root.left,p,q)
 if (!left&&right) return lowestCommonAncestor(root.right,p,q)
