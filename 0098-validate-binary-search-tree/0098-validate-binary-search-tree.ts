@@ -18,8 +18,8 @@ let temp = null;
 
 function isValidBST(root: TreeNode | null): boolean {
     if (root === null) return true;
-    ans = true;
-    temp = null;
+    ans = true
+    temp = null
     inorder(root);
     return ans;
 }
