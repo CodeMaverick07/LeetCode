@@ -28,9 +28,3 @@ return null
 	
 };
 
-function contains(root,node){
-    if (root == node) return true
-    if (root == null ) return false
-    return contains(root.left,node)|| contains(root.right,node)
-
-}
