@@ -26,18 +26,18 @@
 //     return 1+Math.max(height(root.left),height(root.right))
 // }
 
-function helper(node: TreeNode | null, res: number[][], h:number){
-    if(!node)   return;
-    if(res[h] === undefined){
-        res[h] = new Array<number>();
+function helper(node: TreeNode | null, response: number[][], h:number){
+    if(node == null )   return;
+    if( response[h] === undefined ){
+        response[h] = new Array<number>();
     }
-    helper(node.left, res, h+1);
-    res[h].push(node.val);
-    helper(node.right, res, h+1);
+    helper(node.left, response, h+1);
+    response[h].push(node.val);
+    helper(node.right, response, h+1);
 }
 
 function levelOrder(root: TreeNode | null): number[][] {
-    const res: number[][] = [];
-    helper(root, res, 0);
-    return res;
+    const response: number[][] = [];
+    helper(root, response, 0);
+    return response;
 };
