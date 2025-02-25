@@ -11,10 +11,10 @@ function numOfSubarrays(nums: number[]): number {
         prefix += nums[i];
 
         if (prefix % 2 === 0) {
-            count = (count + oddCount) % MOD;
+            count = (count + oddCount) 
             evenCount++;
         } else {
-            count = (count + evenCount) % MOD;
+            count = (count + evenCount) 
             oddCount++;
         }
     }
