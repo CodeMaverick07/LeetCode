@@ -1,22 +1,24 @@
-function numOfSubarrays(arr: number[]): number {
-    let oddCount = 0;
-    let evenCount = 1; // Consider empty subarray as even sum
-    let sum = 0;
-    let result = 0;
-    let MOD = 1_000_000_007; // Large prime to prevent overflow
+function numOfSubarrays(nums: number[]): number {
+    const MOD = 1_000_000_007;
+    const n = nums.length;
 
-    for (let num of arr) {
-        sum += num;
-        
-        if (sum % 2 === 0) {
-            result = (result + oddCount) % MOD;
-            evenCount++;  
+    let count = 0;
+    let prefix = 0;
+    let oddCount = 0;
+    let evenCount = 1;
+
+    for (let i = 0; i < n; i++) {
+        prefix += nums[i];
+
+        if (prefix % 2 === 0) {
+            count = (count + oddCount) % MOD;
+            evenCount++;
         } else {
-            result = (result + evenCount) % MOD;
+            count = (count + evenCount) % MOD;
             oddCount++;
         }
     }
 
-    return result;
-}
+    return count;    
+};
 
