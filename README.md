@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/CodeMaverick07/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2107-find-unique-binary-string](https://github.com/CodeMaverick07/LeetCode/tree/master/2107-find-unique-binary-string) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Hash Table
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/CodeMaverick07/LeetCode/tree/master/0002-add-two-numbers) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/CodeMaverick07/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 ## Recursion
 |  |
 | ------- |
@@ -224,4 +226,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2564-most-profitable-path-in-a-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/CodeMaverick07/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+## Prefix Sum
+|  |
+| ------- |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/CodeMaverick07/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 <!---LeetCode Topics End-->
