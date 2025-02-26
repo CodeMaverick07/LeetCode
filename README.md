@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/CodeMaverick07/LeetCode/tree/master/0037-sudoku-solver) |
+| [0053-maximum-subarray](https://github.com/CodeMaverick07/LeetCode/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
@@ -172,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/CodeMaverick07/LeetCode/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
@@ -231,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/CodeMaverick07/LeetCode/tree/master/0053-maximum-subarray) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/CodeMaverick07/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 ## Prefix Sum
 |  |
