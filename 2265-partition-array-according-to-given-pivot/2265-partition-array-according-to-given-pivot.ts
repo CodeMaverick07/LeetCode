@@ -1,7 +1,23 @@
-function pivotArray(nums: number[], pivot: number): number[] {
-    const ans = []
-    for(const n of nums) if(n < pivot) ans.push(n)
-    for(const n of nums) if(n === pivot) ans.push(n)
-    for(const n of nums) if( n > pivot) ans.push(n)
-    return ans
+const pivotArray = (nums: number[], pivot: number): number[] => {
+  const output = [];
+
+  for (let i = 0; i < nums.length; i += 1) {
+    if (nums[i] < pivot) {
+      output.push(nums[i]);
+    }
+  }
+
+  for (let i = 0; i < nums.length; i += 1) {
+    if (nums[i] === pivot) {
+      output.push(nums[i]);
+    }
+  }
+
+  for (let i = 0; i < nums.length; i += 1) {
+    if (nums[i] > pivot) {
+      output.push(nums[i]);
+    }
+  }
+
+  return output;
 };
