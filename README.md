@@ -170,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/CodeMaverick07/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0091-decode-ways](https://github.com/CodeMaverick07/LeetCode/tree/master/0091-decode-ways) |
 | [0257-binary-tree-paths](https://github.com/CodeMaverick07/LeetCode/tree/master/0257-binary-tree-paths) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1170-shortest-common-supersequence](https://github.com/CodeMaverick07/LeetCode/tree/master/1170-shortest-common-supersequence) |
@@ -241,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/CodeMaverick07/LeetCode/tree/master/0053-maximum-subarray) |
+| [0091-decode-ways](https://github.com/CodeMaverick07/LeetCode/tree/master/0091-decode-ways) |
 | [1170-shortest-common-supersequence](https://github.com/CodeMaverick07/LeetCode/tree/master/1170-shortest-common-supersequence) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/CodeMaverick07/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/CodeMaverick07/LeetCode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
