@@ -1,6 +1,11 @@
 function change(amount: number, coins: number[]): number {
     let n = coins.length;
     let dp = Array.from({ length: n }, () => new Array(amount + 1).fill(0));
+
+   
+    for (let i = 0; i < n; i++) {
+        dp[i][0] = 1;
+    }
     for (let i = 0; i <= amount; i++) {
         if (i % coins[0] === 0) {
             dp[0][i] = 1;
