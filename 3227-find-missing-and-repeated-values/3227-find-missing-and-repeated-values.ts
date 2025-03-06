@@ -1,21 +1,20 @@
 function findMissingAndRepeatedValues(grid: number[][]): number[] {
-   let n = grid.length;
-    let size = n * n;
-    let count = new Map<number, number>();
-    for (let row of grid) {
-        for (let num of row) {
-            count.set(num, (count.get(num) || 0) + 1);
+    let ans = [];
+    ans = Array(grid.length * grid[0].length + 1).fill(0);
+
+    for (let i = 0; i < grid.length; i++) {
+        for (let j = 0; j < grid[i].length; j++) {
+            let num = grid[i][j];
+            ans[num] = ans[num] + 1;
         }
     }
-
-    let repeating = -1, missing = -1;
-    for (let i = 1; i <= size; i++) {
-        if (count.has(i)) {
-            if (count.get(i) === 2) repeating = i; 
-        } else {
-            missing = i; 
-        }
+    let res = [];
+    for (let i = 1; i < ans.length; i++) {
+        if (ans[i] === 0) {
+            res[1] = i;
+        } else if (ans[i] === 2) (
+            res[0] = i
+        )
     }
-
-    return [repeating, missing]; 
+    return res;
 };
