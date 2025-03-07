@@ -1,7 +1,7 @@
 function closestPrimes(left: number, right: number): number[] {
     let primes = findPrimes(left,right)
     if (primes.length == 0 || primes.length == 1) return [-1,-1]
-    let ans = [1,1000000000000000000]
+    let ans = [1,10000]
     for (let i = 1; i<primes.length; i++){
         let diff = primes[i]-primes[i-1]
         if ((ans[1]-ans[0])>diff){
