@@ -32,40 +32,51 @@
 // }
 
 
+const MAX_NUM = 1e6;
+
+let i: number, j: number;
+const isPrime = Array.from({ length: MAX_NUM + 1 }, () => true);
+const primes: number[] = [];
+
+for (i = 2; i * i <= MAX_NUM; i++) {
+  if (isPrime[i]) {
+    for (j = i * i; j <= MAX_NUM; j += i) {
+      isPrime[j] = false;
+    }
+  }
+}
+
+for (i = 2; i <= MAX_NUM; i++) {
+  if (isPrime[i]) {
+    primes.push(i);
+  }
+}
+
 function closestPrimes(left: number, right: number): number[] {
-    const isPrime = sieveOfEratosthenes(right);
-    const primes: number[] = [];
-    for (let i = Math.max(left, 2); i <= right; i++) {
-        if (isPrime[i]) primes.push(i);
+  let i: number,
+    a = -1,
+    b = -1,
+    minDiff = Number.MAX_SAFE_INTEGER;
+
+  // console.table(primes);
+
+  const leftIdx = _.sortedIndex(primes, left);
+  let rightIdx = _.sortedLastIndex(primes, right);
+
+  if (primes[rightIdx] > right) rightIdx--;
+
+  // console.log({ leftIdx, rightIdx });
+
+  if (rightIdx - leftIdx < 1) return [-1, -1];
+
+  for (i = leftIdx; i < rightIdx; i++) {
+    if (primes[i + 1] - primes[i] < minDiff) {
+      minDiff = primes[i + 1] - primes[i];
+
+      a = primes[i];
+      b = primes[i + 1];
     }
+  }
 
-    if (primes.length < 2) return [-1, -1];
-    let closestPair: number[] = [primes[0], primes[1]];
-    let minDiff = closestPair[1] - closestPair[0];
-
-    for (let i = 1; i < primes.length - 1; i++) {
-        let diff = primes[i + 1] - primes[i];
-        if (diff < minDiff) {
-            closestPair = [primes[i], primes[i + 1]];
-            minDiff = diff;
-        }
-    }
-
-    return closestPair;
+  return [a, b];
 }
-
-function sieveOfEratosthenes(limit: number): boolean[] {
-    const primes = new Array(limit + 1).fill(true);
-    primes[0] = primes[1] = false;
-
-    for (let num = 2; num * num <= limit; num++) {
-        if (primes[num]) {
-            for (let multiple = num * num; multiple <= limit; multiple += num) {
-                primes[multiple] = false;
-            }
-        }
-    }
-    return primes;
-}
-
-
