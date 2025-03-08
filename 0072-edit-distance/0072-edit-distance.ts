@@ -1,29 +1,28 @@
 function minDistance(word1: string, word2: string): number {
     let m = word1.length
     let n = word2.length
-    let dp = Array.from({ length: m + 1 }, 
-                        () => Array(n + 1).fill(-1));
-    for (let i = 0; i <= m; i++ ){
-        dp[i][0] = i
+    let prev = new Array(n+1)
+    let curr = new Array(n+1)
+    for (let i = 0; i<=n; i++){
+        prev[i] = i
     }
-    for (let j = 0; j <= n; j++ ){
-        dp[0][j] = j
-    }
+    
      for (let i = 1; i <= m; i++){
+        curr[0] = i
         for (let j = 1; j <= n; j++){
             if (word1[i - 1] === word2[j - 1]) { 
-                dp[i][j] = dp[i - 1][j - 1]
+                curr[j] = prev[j - 1]
             } else {
-            let insertion = dp[i][j - 1]
-            let deletion = dp[i - 1][ j]
-            let replace = dp[i - 1][j - 1]
-            dp[i][j] = 1 + Math.min(insertion, deletion, replace);
+            let insertion = curr[j - 1]
+            let deletion = prev[j]
+            let replace = prev[j - 1]
+            curr[j] = 1 + Math.min(insertion, deletion, replace);
             }
-
-           
-        }     
+            
+        } 
+        prev = [...curr]    
     }
-     return dp[m][n]
+     return prev[n]
 }
 
 // function helper(i: number, j: number, word1: string, word2: string, dp: number[][]): number {
@@ -42,4 +41,33 @@ function minDistance(word1: string, word2: string): number {
 
 //     return dp[i][j] = 1 + Math.min(insertion, deletion, replace);
 // }
+
+// function minDistance(word1: string, word2: string): number {
+//     let m = word1.length
+//     let n = word2.length
+//     let dp = Array.from({ length: m + 1 }, 
+//                         () => Array(n + 1).fill(-1));
+//     for (let i = 0; i <= m; i++ ){
+//         dp[i][0] = i
+//     }
+//     for (let j = 0; j <= n; j++ ){
+//         dp[0][j] = j
+//     }
+//      for (let i = 1; i <= m; i++){
+//         for (let j = 1; j <= n; j++){
+//             if (word1[i - 1] === word2[j - 1]) { 
+//                 dp[i][j] = dp[i - 1][j - 1]
+//             } else {
+//             let insertion = dp[i][j - 1]
+//             let deletion = dp[i - 1][ j]
+//             let replace = dp[i - 1][j - 1]
+//             dp[i][j] = 1 + Math.min(insertion, deletion, replace);
+//             }
+
+           
+//         }     
+//     }
+//      return dp[m][n]
+// }
+
 
