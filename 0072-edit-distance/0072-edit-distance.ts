@@ -1,23 +1,25 @@
 function minDistance(word1: string, word2: string): number {
-    let m = word1.length, n = word2.length;
-    let dp = new Array(m + 1).fill(null).map(() => new Array(n + 1).fill(0));
+    let dp = Array.from({length:word1.length+1},()=>Array(word2.length+1).fill(-1))
+    return helper(word1.length-1,word2.length-1,word1,word2,dp)
+};
 
-    for (let i = 0; i <= m; i++) dp[i][0] = i;
-    for (let j = 0; j <= n; j++) dp[0][j] = j;
-
-    for (let i = 1; i <= m; i++) {
-        for (let j = 1; j <= n; j++) {
-            if (word1[i - 1] === word2[j - 1]) {
-                dp[i][j] = dp[i - 1][j - 1]; 
-            } else {
-                dp[i][j] = 1 + Math.min(
-                    dp[i - 1][j],    
-                    dp[i][j - 1],   
-                    dp[i - 1][j - 1] 
-                );
-            }
-        }
+function helper(i,j,word1,word2,dp){
+    if (i == -1){
+        return j + 1
     }
+    if (j == -1){
+        return i + 1
+    }
+    if ( dp[i][j] != -1 ) {
+        return dp[i][j]
+    }
+    if (word1[i] == word2[j]){
+       return dp[i][j] = helper(i - 1, j - 1, word1, word2, dp);
+    }
+    let insertion =  helper(i-1,j,word1,word2,dp)
+    let deletion =  helper(i,j-1,word1,word2,dp)
+    let replace = helper(i-1,j-1,word1,word2,dp)
+    
+    return dp[i][j] = 1 + Math.min(insertion,deletion,replace)
 
-    return dp[m][n];
 }
