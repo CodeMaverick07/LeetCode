@@ -1,13 +1,12 @@
 function maximumCount(nums: number[]): number {
-    let positive = 0
-    let negative = 0
-    for (let i = 0; i<nums.length; i++){
-        if (nums[i]>0){
-            positive++
-        } 
-         if (nums[i]<=-1){
-            negative++
+    let belowZero = 0;
+    let aboveZero = 0;
+    for (let num of nums) {
+        if (num < 0) {
+            belowZero++;
+        } else if (num > 0) {
+            aboveZero++;
         }
     }
-    return Math.max(positive,negative)
+    return Math.max(belowZero, aboveZero);
 };
