@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/CodeMaverick07/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3227-find-missing-and-repeated-values](https://github.com/CodeMaverick07/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3483-alternating-groups-ii](https://github.com/CodeMaverick07/LeetCode/tree/master/3483-alternating-groups-ii) |
+| [3643-zero-array-transformation-ii](https://github.com/CodeMaverick07/LeetCode/tree/master/3643-zero-array-transformation-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -237,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1427-all-elements-in-two-binary-search-trees](https://github.com/CodeMaverick07/LeetCode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/CodeMaverick07/LeetCode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [3643-zero-array-transformation-ii](https://github.com/CodeMaverick07/LeetCode/tree/master/3643-zero-array-transformation-ii) |
 ## Greedy
 |  |
 | ------- |
@@ -273,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/CodeMaverick07/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [3643-zero-array-transformation-ii](https://github.com/CodeMaverick07/LeetCode/tree/master/3643-zero-array-transformation-ii) |
 ## Sliding Window
 |  |
 | ------- |
