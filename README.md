@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/CodeMaverick07/LeetCode/tree/master/0037-sudoku-solver) |
 | [0113-path-sum-ii](https://github.com/CodeMaverick07/LeetCode/tree/master/0113-path-sum-ii) |
+| [0131-palindrome-partitioning](https://github.com/CodeMaverick07/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0257-binary-tree-paths](https://github.com/CodeMaverick07/LeetCode/tree/master/0257-binary-tree-paths) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/CodeMaverick07/LeetCode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [2107-find-unique-binary-string](https://github.com/CodeMaverick07/LeetCode/tree/master/2107-find-unique-binary-string) |
@@ -190,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/CodeMaverick07/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0072-edit-distance](https://github.com/CodeMaverick07/LeetCode/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/CodeMaverick07/LeetCode/tree/master/0091-decode-ways) |
+| [0131-palindrome-partitioning](https://github.com/CodeMaverick07/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0257-binary-tree-paths](https://github.com/CodeMaverick07/LeetCode/tree/master/0257-binary-tree-paths) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1170-shortest-common-supersequence](https://github.com/CodeMaverick07/LeetCode/tree/master/1170-shortest-common-supersequence) |
@@ -275,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/CodeMaverick07/LeetCode/tree/master/0053-maximum-subarray) |
 | [0072-edit-distance](https://github.com/CodeMaverick07/LeetCode/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/CodeMaverick07/LeetCode/tree/master/0091-decode-ways) |
+| [0131-palindrome-partitioning](https://github.com/CodeMaverick07/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0322-coin-change](https://github.com/CodeMaverick07/LeetCode/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/CodeMaverick07/LeetCode/tree/master/0518-coin-change-ii) |
 | [1170-shortest-common-supersequence](https://github.com/CodeMaverick07/LeetCode/tree/master/1170-shortest-common-supersequence) |
