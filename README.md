@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1427-all-elements-in-two-binary-search-trees](https://github.com/CodeMaverick07/LeetCode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2793-count-the-number-of-complete-components](https://github.com/CodeMaverick07/LeetCode/tree/master/2793-count-the-number-of-complete-components) |
 ## Binary Tree
 |  |
 | ------- |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0799-minimum-distance-between-bst-nodes](https://github.com/CodeMaverick07/LeetCode/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2793-count-the-number-of-complete-components](https://github.com/CodeMaverick07/LeetCode/tree/master/2793-count-the-number-of-complete-components) |
 ## String
 |  |
 | ------- |
@@ -275,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2564-most-profitable-path-in-a-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2793-count-the-number-of-complete-components](https://github.com/CodeMaverick07/LeetCode/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/CodeMaverick07/LeetCode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 ## Dynamic Programming
 |  |
@@ -348,5 +351,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [2793-count-the-number-of-complete-components](https://github.com/CodeMaverick07/LeetCode/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/CodeMaverick07/LeetCode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 <!---LeetCode Topics End-->
