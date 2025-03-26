@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/CodeMaverick07/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/CodeMaverick07/LeetCode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2107-find-unique-binary-string](https://github.com/CodeMaverick07/LeetCode/tree/master/2107-find-unique-binary-string) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/CodeMaverick07/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/CodeMaverick07/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2308-divide-array-into-equal-pairs](https://github.com/CodeMaverick07/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2478-longest-nice-subarray](https://github.com/CodeMaverick07/LeetCode/tree/master/2478-longest-nice-subarray) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/CodeMaverick07/LeetCode/tree/master/0037-sudoku-solver) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/CodeMaverick07/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [3227-find-missing-and-repeated-values](https://github.com/CodeMaverick07/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 ## Stack
 |  |
@@ -229,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/CodeMaverick07/LeetCode/tree/master/0002-add-two-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/CodeMaverick07/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/CodeMaverick07/LeetCode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/CodeMaverick07/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2610-closest-prime-numbers-in-range](https://github.com/CodeMaverick07/LeetCode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/CodeMaverick07/LeetCode/tree/master/2649-count-total-number-of-colored-cells) |
 | [3227-find-missing-and-repeated-values](https://github.com/CodeMaverick07/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
@@ -274,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1427-all-elements-in-two-binary-search-trees](https://github.com/CodeMaverick07/LeetCode/tree/master/1427-all-elements-in-two-binary-search-trees) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/CodeMaverick07/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [3430-count-days-without-meetings](https://github.com/CodeMaverick07/LeetCode/tree/master/3430-count-days-without-meetings) |
 ## Graph
 |  |
