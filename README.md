@@ -216,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/CodeMaverick07/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0038-count-and-say](https://github.com/CodeMaverick07/LeetCode/tree/master/0038-count-and-say) |
 | [0072-edit-distance](https://github.com/CodeMaverick07/LeetCode/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/CodeMaverick07/LeetCode/tree/master/0091-decode-ways) |
 | [0131-palindrome-partitioning](https://github.com/CodeMaverick07/LeetCode/tree/master/0131-palindrome-partitioning) |
