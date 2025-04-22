@@ -260,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/CodeMaverick07/LeetCode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/CodeMaverick07/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/CodeMaverick07/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/CodeMaverick07/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2610-closest-prime-numbers-in-range](https://github.com/CodeMaverick07/LeetCode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/CodeMaverick07/LeetCode/tree/master/2649-count-total-number-of-colored-cells) |
 | [2998-count-symmetric-integers](https://github.com/CodeMaverick07/LeetCode/tree/master/2998-count-symmetric-integers) |
@@ -340,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/CodeMaverick07/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/CodeMaverick07/LeetCode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2262-solving-questions-with-brainpower](https://github.com/CodeMaverick07/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/CodeMaverick07/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/CodeMaverick07/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
 ## Prefix Sum
 |  |
@@ -375,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/CodeMaverick07/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2610-closest-prime-numbers-in-range](https://github.com/CodeMaverick07/LeetCode/tree/master/2610-closest-prime-numbers-in-range) |
 ## Counting
 |  |
@@ -416,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/CodeMaverick07/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/CodeMaverick07/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3548-find-the-count-of-good-integers](https://github.com/CodeMaverick07/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
 ## Enumeration
 |  |
