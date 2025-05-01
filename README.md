@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1993-sum-of-all-subset-xor-totals](https://github.com/CodeMaverick07/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2107-find-unique-binary-string](https://github.com/CodeMaverick07/LeetCode/tree/master/2107-find-unique-binary-string) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/CodeMaverick07/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/CodeMaverick07/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2249-count-the-hidden-sequences](https://github.com/CodeMaverick07/LeetCode/tree/master/2249-count-the-hidden-sequences) |
 | [2262-solving-questions-with-brainpower](https://github.com/CodeMaverick07/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/CodeMaverick07/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -296,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/CodeMaverick07/LeetCode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1427-all-elements-in-two-binary-search-trees](https://github.com/CodeMaverick07/LeetCode/tree/master/1427-all-elements-in-two-binary-search-trees) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/CodeMaverick07/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/CodeMaverick07/LeetCode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2665-minimum-time-to-repair-cars](https://github.com/CodeMaverick07/LeetCode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/CodeMaverick07/LeetCode/tree/master/2690-house-robber-iv) |
@@ -305,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0768-partition-labels](https://github.com/CodeMaverick07/LeetCode/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/CodeMaverick07/LeetCode/tree/master/0797-rabbits-in-forest) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/CodeMaverick07/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/CodeMaverick07/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2681-put-marbles-in-bags](https://github.com/CodeMaverick07/LeetCode/tree/master/2681-put-marbles-in-bags) |
 ## Design
@@ -321,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/CodeMaverick07/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [1427-all-elements-in-two-binary-search-trees](https://github.com/CodeMaverick07/LeetCode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/CodeMaverick07/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/CodeMaverick07/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/CodeMaverick07/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/CodeMaverick07/LeetCode/tree/master/2681-put-marbles-in-bags) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/CodeMaverick07/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
@@ -404,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/CodeMaverick07/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/CodeMaverick07/LeetCode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/CodeMaverick07/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Trie
@@ -441,5 +446,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Queue
 |  |
 | ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/CodeMaverick07/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/CodeMaverick07/LeetCode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 <!---LeetCode Topics End-->
