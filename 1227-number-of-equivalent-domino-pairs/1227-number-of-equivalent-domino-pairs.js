@@ -1,27 +1,20 @@
+/**
+ * @param {number[][]} dominoes
+ * @return {number}
+ */
+var numEquivDominoPairs = function(dominoes) {
+    const cantorPair = (a, b) => {
+        let x = Math.min(a, b), y = Math.max(a, b);
+        let sum = x + y;
+        return (sum * (sum + 1)) / 2 + y;
+    };
 
-function numEquivDominoPairs(dominoes) {
-
-  const countByKey = new Uint16Array(100);
-  let totalEquivalentPairs = 0;
-
-  const length = dominoes.length;
-  for (let i = 0; i < length; i++) {
-    const firstValue = dominoes[i][0];
-    const secondValue = dominoes[i][1];
-
-
-    const minValue = firstValue < secondValue ? firstValue : secondValue;
-    const maxValue = firstValue < secondValue ? secondValue : firstValue;
-
-
-    const key = minValue * 10 + maxValue;
-
-
-    totalEquivalentPairs += countByKey[key];
-
-
-    countByKey[key]++;
-  }
-
-  return totalEquivalentPairs;
-}
+    let count = 0;
+    let freq = new Map();
+    for (let [a, b] of dominoes) {
+        let pairValue = cantorPair(a, b);
+        count += (freq.get(pairValue) || 0);
+        freq.set(pairValue, (freq.get(pairValue) || 0) + 1);
+    }
+    return count;
+};
