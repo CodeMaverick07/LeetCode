@@ -1,15 +1,17 @@
 function maxProfit(prices: number[]): number {
-    let profit = 0
-    let min = prices[0]
-    for (let i = 1; i < prices.length; i++){
-        console.log(min)
-        if (min > prices[i]){
-            min = prices[i]
-        }else{
-            profit = profit + prices[i] - min
-            min = prices[i]
-        }
+   /*
+    let iterate the prices reversely. If [n]>[n-1], we could buy and sell
 
-    }
-    return profit
-};
+    [1,2,3]
+    [2,3,1]
+    [3,2,1]
+    [3,1,2]
+  */
+   let profit = 0;
+   for (let i = prices.length - 1; i > 0; i--) {
+      if (prices[i] > prices[i - 1]) {
+         profit += prices[i] - prices[i - 1];
+      }
+   }
+   return profit;
+}
