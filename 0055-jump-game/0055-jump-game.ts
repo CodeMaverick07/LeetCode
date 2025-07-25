@@ -22,11 +22,11 @@ function canJump(nums: number[]): boolean {
         for(j ; j <= expected ; j ++){
             arr[j] = true;
             if(j == i){
-                console.log("lund")
+                // console.log("lund")
                 return false;
             }
         }
-        console.log(i , j);
+        // console.log(i , j);
         
         if(j == n) return true;
     }
