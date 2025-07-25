@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/CodeMaverick07/LeetCode/tree/master/0037-sudoku-solver) |
 | [0053-maximum-subarray](https://github.com/CodeMaverick07/LeetCode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/CodeMaverick07/LeetCode/tree/master/0055-jump-game) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/CodeMaverick07/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -319,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/CodeMaverick07/LeetCode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/CodeMaverick07/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0768-partition-labels](https://github.com/CodeMaverick07/LeetCode/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/CodeMaverick07/LeetCode/tree/master/0797-rabbits-in-forest) |
@@ -356,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/CodeMaverick07/LeetCode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/CodeMaverick07/LeetCode/tree/master/0055-jump-game) |
 | [0072-edit-distance](https://github.com/CodeMaverick07/LeetCode/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/CodeMaverick07/LeetCode/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/CodeMaverick07/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
