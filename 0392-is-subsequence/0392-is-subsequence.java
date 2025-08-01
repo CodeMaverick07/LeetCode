@@ -9,7 +9,6 @@ class Solution {
         while (l > i && j < k){
             char a = s.charAt(i);
             char b = t.charAt(j);
-            System.out.println(a+" "+i+" "+b+" "+j);
             if (a == b) {
             i++;
             j++;
