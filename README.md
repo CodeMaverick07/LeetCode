@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/CodeMaverick07/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/CodeMaverick07/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0139-word-break](https://github.com/CodeMaverick07/LeetCode/tree/master/0139-word-break) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/CodeMaverick07/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/CodeMaverick07/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/CodeMaverick07/LeetCode/tree/master/0189-rotate-array) |
 | [0274-h-index](https://github.com/CodeMaverick07/LeetCode/tree/master/0274-h-index) |
@@ -308,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0099-recover-binary-search-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/0099-recover-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/CodeMaverick07/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/CodeMaverick07/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/CodeMaverick07/LeetCode/tree/master/0450-delete-node-in-a-bst) |
@@ -414,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/CodeMaverick07/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0125-valid-palindrome](https://github.com/CodeMaverick07/LeetCode/tree/master/0125-valid-palindrome) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/CodeMaverick07/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/CodeMaverick07/LeetCode/tree/master/0189-rotate-array) |
 | [0392-is-subsequence](https://github.com/CodeMaverick07/LeetCode/tree/master/0392-is-subsequence) |
 | [0768-partition-labels](https://github.com/CodeMaverick07/LeetCode/tree/master/0768-partition-labels) |
