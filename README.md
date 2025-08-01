@@ -249,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/CodeMaverick07/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/CodeMaverick07/LeetCode/tree/master/0139-word-break) |
 | [0257-binary-tree-paths](https://github.com/CodeMaverick07/LeetCode/tree/master/0257-binary-tree-paths) |
+| [0392-is-subsequence](https://github.com/CodeMaverick07/LeetCode/tree/master/0392-is-subsequence) |
 | [0768-partition-labels](https://github.com/CodeMaverick07/LeetCode/tree/master/0768-partition-labels) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1170-shortest-common-supersequence](https://github.com/CodeMaverick07/LeetCode/tree/master/1170-shortest-common-supersequence) |
@@ -377,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/CodeMaverick07/LeetCode/tree/master/0139-word-break) |
 | [0322-coin-change](https://github.com/CodeMaverick07/LeetCode/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/CodeMaverick07/LeetCode/tree/master/0368-largest-divisible-subset) |
+| [0392-is-subsequence](https://github.com/CodeMaverick07/LeetCode/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/CodeMaverick07/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/CodeMaverick07/LeetCode/tree/master/0518-coin-change-ii) |
 | [1170-shortest-common-supersequence](https://github.com/CodeMaverick07/LeetCode/tree/master/1170-shortest-common-supersequence) |
@@ -413,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/CodeMaverick07/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0125-valid-palindrome](https://github.com/CodeMaverick07/LeetCode/tree/master/0125-valid-palindrome) |
 | [0189-rotate-array](https://github.com/CodeMaverick07/LeetCode/tree/master/0189-rotate-array) |
+| [0392-is-subsequence](https://github.com/CodeMaverick07/LeetCode/tree/master/0392-is-subsequence) |
 | [0768-partition-labels](https://github.com/CodeMaverick07/LeetCode/tree/master/0768-partition-labels) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/CodeMaverick07/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/CodeMaverick07/LeetCode/tree/master/2551-apply-operations-to-an-array) |
