@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/CodeMaverick07/LeetCode/tree/master/0020-valid-parentheses) |
 | [0094-binary-tree-inorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/CodeMaverick07/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/CodeMaverick07/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0020-valid-parentheses](https://github.com/CodeMaverick07/LeetCode/tree/master/0020-valid-parentheses) |
 | [0038-count-and-say](https://github.com/CodeMaverick07/LeetCode/tree/master/0038-count-and-say) |
 | [0072-edit-distance](https://github.com/CodeMaverick07/LeetCode/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/CodeMaverick07/LeetCode/tree/master/0091-decode-ways) |
