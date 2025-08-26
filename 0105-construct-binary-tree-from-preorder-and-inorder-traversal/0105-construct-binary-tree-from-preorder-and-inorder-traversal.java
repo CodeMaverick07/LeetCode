@@ -15,17 +15,18 @@
  */
 class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        Map<Integer,Integer> mp = new HashMap<>();
+        Map<Integer,Integer> inorderMap = new HashMap<>();
         for (int i = 0; i < preorder.length; i++){
-            mp.put(inorder[i],i);
+            inorderMap.put(inorder[i],i);
         }
-        return helper(preorder,mp,0,0,preorder.length-1);
+        return helper(0,preorder.length-1,0,preorder,inorderMap);
     }
-    public TreeNode helper(int[] preorder,Map<Integer,Integer> mp,int rootIdx,int left,int right){
-        TreeNode root = new TreeNode(preorder[rootIdx]);
-        int mid = mp.get(preorder[rootIdx]);
-        if (mid > left) root.left = helper(preorder,mp,rootIdx+1,left,mid-1);
-        if (mid < right) root.right = helper(preorder,mp,rootIdx+mid-left+1,mid+1,right);
-        return root;
+
+    public TreeNode helper(int left,int right,int idx,int[] preorder,Map<Integer,Integer> inorderMap){
+    TreeNode node = new TreeNode(preorder[idx]);
+    int mid = inorderMap.get(preorder[idx]);
+    if (mid > left) node.left = helper(left,mid-1,idx+1,preorder,inorderMap);
+    if (mid < right) node.right = helper(mid+1,right,mid+idx-left+1,preorder,inorderMap);
+    return node;
     }
 }
