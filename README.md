@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/CodeMaverick07/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/CodeMaverick07/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/CodeMaverick07/LeetCode/tree/master/0189-rotate-array) |
+| [0198-house-robber](https://github.com/CodeMaverick07/LeetCode/tree/master/0198-house-robber) |
 | [0209-minimum-size-subarray-sum](https://github.com/CodeMaverick07/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/CodeMaverick07/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/CodeMaverick07/LeetCode/tree/master/0274-h-index) |
@@ -406,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/CodeMaverick07/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0131-palindrome-partitioning](https://github.com/CodeMaverick07/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/CodeMaverick07/LeetCode/tree/master/0139-word-break) |
+| [0198-house-robber](https://github.com/CodeMaverick07/LeetCode/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/CodeMaverick07/LeetCode/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/CodeMaverick07/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [0392-is-subsequence](https://github.com/CodeMaverick07/LeetCode/tree/master/0392-is-subsequence) |
