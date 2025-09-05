@@ -5,7 +5,6 @@ class Solution {
 
         for (int i = height - 1; i >= 0; i--){
             for (int j = 0; j <= i; j++){
-                System.out.println(i+" "+j);
                 dp[i][j] = triangle.get(i).get(j) + Math.min(dp[i+1][j],dp[i+1][j+1]);
             }
         }
