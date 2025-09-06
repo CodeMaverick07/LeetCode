@@ -13,9 +13,6 @@ class Solution {
                 }
             }
         }
-        for (int each:dp){
-            System.out.print(each+" ");
-        }
         int maxVal = dp[0];
         for (int i = 1; i< nums.length; i++){
             if (maxVal < dp[i]){
