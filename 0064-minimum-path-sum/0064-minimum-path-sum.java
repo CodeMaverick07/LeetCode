@@ -16,14 +16,7 @@ class Solution {
                 if (i == 1 && j== 1) continue;
                 dp[i][j] = Math.min(dp[i-1][j],dp[i][j-1])+grid[i-1][j-1];
             }
-        }
-        for (int i = 0; i < o+1; i++){
-            for (int j = 0; j < l+1; j++){
-              System.out.print(dp[i][j]+" ");  
-            }
-            System.out.println();  
-        }
-        
+        }       
         return dp[o][l];
     }
 }
