@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/CodeMaverick07/LeetCode/tree/master/0274-h-index) |
 | [0300-longest-increasing-subsequence](https://github.com/CodeMaverick07/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/CodeMaverick07/LeetCode/tree/master/0322-coin-change) |
+| [0349-intersection-of-two-arrays](https://github.com/CodeMaverick07/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0368-largest-divisible-subset](https://github.com/CodeMaverick07/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [0380-insert-delete-getrandom-o1](https://github.com/CodeMaverick07/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0416-partition-equal-subset-sum](https://github.com/CodeMaverick07/LeetCode/tree/master/0416-partition-equal-subset-sum) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/CodeMaverick07/LeetCode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/CodeMaverick07/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/CodeMaverick07/LeetCode/tree/master/0169-majority-element) |
+| [0349-intersection-of-two-arrays](https://github.com/CodeMaverick07/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0380-insert-delete-getrandom-o1](https://github.com/CodeMaverick07/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0768-partition-labels](https://github.com/CodeMaverick07/LeetCode/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/CodeMaverick07/LeetCode/tree/master/0797-rabbits-in-forest) |
@@ -363,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/CodeMaverick07/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0300-longest-increasing-subsequence](https://github.com/CodeMaverick07/LeetCode/tree/master/0300-longest-increasing-subsequence) |
+| [0349-intersection-of-two-arrays](https://github.com/CodeMaverick07/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0450-delete-node-in-a-bst](https://github.com/CodeMaverick07/LeetCode/tree/master/0450-delete-node-in-a-bst) |
 | [0538-convert-bst-to-greater-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/0538-convert-bst-to-greater-tree) |
 | [0669-trim-a-binary-search-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/0669-trim-a-binary-search-tree) |
@@ -407,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/CodeMaverick07/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/CodeMaverick07/LeetCode/tree/master/0169-majority-element) |
 | [0274-h-index](https://github.com/CodeMaverick07/LeetCode/tree/master/0274-h-index) |
+| [0349-intersection-of-two-arrays](https://github.com/CodeMaverick07/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0368-largest-divisible-subset](https://github.com/CodeMaverick07/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [1427-all-elements-in-two-binary-search-trees](https://github.com/CodeMaverick07/LeetCode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/CodeMaverick07/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -493,6 +497,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/CodeMaverick07/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/CodeMaverick07/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/CodeMaverick07/LeetCode/tree/master/0189-rotate-array) |
+| [0349-intersection-of-two-arrays](https://github.com/CodeMaverick07/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0392-is-subsequence](https://github.com/CodeMaverick07/LeetCode/tree/master/0392-is-subsequence) |
 | [0768-partition-labels](https://github.com/CodeMaverick07/LeetCode/tree/master/0768-partition-labels) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/CodeMaverick07/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
