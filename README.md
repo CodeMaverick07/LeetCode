@@ -184,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1427-all-elements-in-two-binary-search-trees](https://github.com/CodeMaverick07/LeetCode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -213,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0669-trim-a-binary-search-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/0669-trim-a-binary-search-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/CodeMaverick07/LeetCode/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1427-all-elements-in-two-binary-search-trees](https://github.com/CodeMaverick07/LeetCode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -254,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1427-all-elements-in-two-binary-search-trees](https://github.com/CodeMaverick07/LeetCode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 ## Breadth-First Search
@@ -269,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/CodeMaverick07/LeetCode/tree/master/0322-coin-change) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/CodeMaverick07/LeetCode/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/CodeMaverick07/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/CodeMaverick07/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
