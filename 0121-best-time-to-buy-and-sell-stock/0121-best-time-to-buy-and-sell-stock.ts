@@ -4,9 +4,9 @@ function maxProfit(prices: number[]): number {
     for (let i = 1; i < prices.length; i++){
         if (min_price > prices[i]){
             min_price = prices[i]
-            continue;
-        }
+        } else {
         max_profit = Math.max(max_profit,(prices[i]-min_price))
+        }
     }
     return max_profit
 };
