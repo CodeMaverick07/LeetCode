@@ -1,17 +1,27 @@
 function maxProfit(prices: number[]): number {
-    let min = prices[0];
-    let maxProf = 0;
-
-    for (let index = 1; index < prices.length; index++) {
-            if (prices[index] < min) {
-                min = prices[index];
-            } else if (prices[index] > min) {
-                const profit = prices[index] - min;
-          
-                if (profit > maxProf) maxProf = profit;
-            }
+    //<------------------------ DP_Solution ------------------------>
+    // let dp = Array.from({length:prices.length},()=>Array(prices.length).fill(0))
+    // let ans = 0
+    // for (let i = 0; i < prices.length; i++){
+    //     for (let j = i; j < prices.length; j++){
+    //         dp[i][j] = prices[j]-prices[i]
+    //         if (dp[i][j] > ans ){
+    //             ans = dp[i][j]
+    //         }
+    //     }
+    // }
+    // return ans
+    //<------------------------ DP_Solution ------------------------>
+    let min_price = prices[0]
+    let max_profit = 0
+    for (let i = 1; i < prices.length; i++){
+        if (min_price > prices[i]){
+            min_price = prices[i]
+            continue;
+        }
+        let profit = prices[i]-min_price
+        max_profit = Math.max(max_profit,profit)
     }
-   
-    return maxProf;
+    return max_profit
 
 };
