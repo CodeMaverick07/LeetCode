@@ -1,15 +1,13 @@
 function hIndex(citations: number[]): number {
-   let count = 0;
-    for (let i = citations.length; i >= 1; i--){
-        count = 0
-        for (let j = 0; j < citations.length; j++){
-            if (i <= citations[j]){
-                count++
-            }
+    citations.sort((a,b)=> a - b)
+    console.log(citations)
+    let ans = 0
+    for (let i = 0; i < citations.length; i++){
+        
+        if (citations[i] >= citations.length - i ){
+            return citations.length - i
         }
-        if (count >= i){
-            return i
-        }
+        console.log(i,ans)
     }
-    return 0
+    return ans
 };
