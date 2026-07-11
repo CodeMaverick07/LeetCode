@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/CodeMaverick07/LeetCode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/CodeMaverick07/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0037-sudoku-solver](https://github.com/CodeMaverick07/LeetCode/tree/master/0037-sudoku-solver) |
+| [0042-trapping-rain-water](https://github.com/CodeMaverick07/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/CodeMaverick07/LeetCode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/CodeMaverick07/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/CodeMaverick07/LeetCode/tree/master/0055-jump-game) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/CodeMaverick07/LeetCode/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/CodeMaverick07/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/CodeMaverick07/LeetCode/tree/master/0071-simplify-path) |
 | [0094-binary-tree-inorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/CodeMaverick07/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
@@ -411,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/CodeMaverick07/LeetCode/tree/master/0042-trapping-rain-water) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Sorting
 |  |
@@ -437,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/CodeMaverick07/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/CodeMaverick07/LeetCode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/CodeMaverick07/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/CodeMaverick07/LeetCode/tree/master/0055-jump-game) |
@@ -499,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/CodeMaverick07/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/CodeMaverick07/LeetCode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/CodeMaverick07/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/CodeMaverick07/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/CodeMaverick07/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/CodeMaverick07/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/CodeMaverick07/LeetCode/tree/master/0125-valid-palindrome) |
