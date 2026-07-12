@@ -14,11 +14,8 @@ function reverseWords(s: string): string {
             array.push(word)
             word = ""
             }
-        
         }
-    
     }
-    console.log(array)
     for (let i = array.length -1; i >= 0; i--){
     if (word == ""){
         word = array[i]
