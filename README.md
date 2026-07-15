@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/CodeMaverick07/LeetCode/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/CodeMaverick07/LeetCode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/CodeMaverick07/LeetCode/tree/master/0064-minimum-path-sum) |
+| [0068-text-justification](https://github.com/CodeMaverick07/LeetCode/tree/master/0068-text-justification) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/CodeMaverick07/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/CodeMaverick07/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/CodeMaverick07/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -296,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/CodeMaverick07/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/CodeMaverick07/LeetCode/tree/master/0038-count-and-say) |
 | [0058-length-of-last-word](https://github.com/CodeMaverick07/LeetCode/tree/master/0058-length-of-last-word) |
+| [0068-text-justification](https://github.com/CodeMaverick07/LeetCode/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/CodeMaverick07/LeetCode/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/CodeMaverick07/LeetCode/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/CodeMaverick07/LeetCode/tree/master/0076-minimum-window-substring) |
@@ -529,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0068-text-justification](https://github.com/CodeMaverick07/LeetCode/tree/master/0068-text-justification) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/CodeMaverick07/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/CodeMaverick07/LeetCode/tree/master/2551-apply-operations-to-an-array) |
 ## Number Theory
